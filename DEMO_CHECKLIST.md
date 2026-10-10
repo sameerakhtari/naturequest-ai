@@ -54,11 +54,12 @@ Final frame: GitHub URL and “Hacktoberfest 2026 — Touch Grass”.
 - Publish on DEV through the official Week 1 challenge template: https://dev.to/challenges/hacktoberfest-week1-2026-10-05
 - [x] A YouTube demo URL has been supplied and added to SUBMISSION_DRAFT.md: https://youtu.be/JD7JUCscFDk
 - [ ] Open the video in an incognito window and confirm playback works without signing in.
-- [ ] Preview the embedded video in DEV before publishing.
-- [ ] Use DEV's **official Week 1 submission template** and confirm tags `devchallenge`, `hf26challenge`.
-- [ ] Paste SUBMISSION_DRAFT.md into DEV (or transfer its sections into the official template), preview, and publish **one** entry before the deadline.
-- [ ] Check the published DEV link while signed out and retain it as proof of submission.
-- [ ] Optionally connect DEV to MyMLH from DEV account settings so Hacktoberfest can associate the entry with your account.
+- [x] A DEV article URL has been supplied: https://dev.to/sameerakhtari/naturequest-ai-less-screen-more-sky-a-local-gemma-powered-outdoor-companion-26dj
+- [ ] Open the published DEV article while signed out; confirm it is publicly readable.
+- [ ] Verify the required tags `devchallenge` and `hf26challenge` appear on the live article.
+- [ ] Verify the YouTube embed plays on the live article, including while signed out.
+- [ ] Verify the GitHub repo link works, the **Best Use of Gemma** category is named, and the actual article contains the required challenge headings.
+- [ ] Retain the published URL and a screenshot as your submission record.
 - [ ] Confirm eligibility and employer policy; the official general rules restrict some sponsor-affiliated people and employers may have policies governing competition entries.
 - Eligible partner category: Best Use of Gemma (once the live model has been tested).
 - Deadline: October 11, 2026, 11:59 PM PDT, equal to October 12, 2026, 11:59 AM PKT.
