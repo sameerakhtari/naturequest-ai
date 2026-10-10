@@ -5,7 +5,7 @@ NatureQuest is an offline-first outdoor exploration companion built for **Hackto
 
 Plan a three-step outdoor micro-adventure, put your phone down, notice something wonderful, and return with a photograph. Google's open-weight Gemma 3 vision model runs through **your own Ollama server** and helps describe the details. A private field journal stores discoveries in your own browser.
 
-[Official challenge](https://dev.to/challenges/hacktoberfest-week1-2026-10-05) · [Gemma 3 model](https://ollama.com/library/gemma3) · [Ollama](https://ollama.com/)
+[▶ Watch the NatureQuest AI demo](https://youtu.be/JD7JUCscFDk) · [Official challenge](https://dev.to/challenges/hacktoberfest-week1-2026-10-05) · [Gemma 3 model](https://ollama.com/library/gemma3) · [Ollama](https://ollama.com/)
 
 ## Features
 
@@ -80,6 +80,10 @@ Gemma model files are not included and are independently governed by Google's Ge
 
 The [Hacktoberfest 2026 Week 1 rules](https://dev.to/page/hacktoberfest-week1-2026-10-05-contest-rules/) require a project built during October 5–11, an actual demo (deployed link or video), a repository link, an explanation of open innovation, and a DEV post using the required template and tags. The submission deadline is October 11, 2026, at 11:59 PM PDT.
 
-Review DEMO_CHECKLIST.md, record a genuine demonstration with your local model, and customize SUBMISSION_DRAFT.md based on what you actually tested.
+**Video demonstration:** https://youtu.be/JD7JUCscFDk (link supplied October 11, 2026; public playback has not been independently verified here).
+
+**DEV Community post:** [ready-to-use submission draft](SUBMISSION_DRAFT.md), now including an embedded video. Publish it through the official Week 1 challenge submission template, and verify its preview, DEV tags, and availability before the deadline. The draft is *not* the published contest entry.
+
+Refer to [DEMO_CHECKLIST.md](DEMO_CHECKLIST.md) for remaining checks, including playback in a signed-out browser. The demo itself cannot prove every feature without an independent test.
 
 Built by **Sameer Akhtari** for Hacktoberfest 2026, with AI-assisted implementation.
