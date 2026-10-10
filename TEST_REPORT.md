@@ -30,6 +30,11 @@ The tests mock Ollama rather than using a live model. The local test harness use
 
 - Download and run the gemma3:4b vision model in Ollama.
 - Manually verify real photo analysis, rendering, saved journal persistence, and offline PWA behavior in a browser.
-- Record a genuine video demonstration for the DEV challenge.
+- A YouTube demo URL has now been provided: https://youtu.be/JD7JUCscFDk. Its contents and public playback are **not independently verified** here.
+- Publish the required DEV Community Week 1 submission with the embedded video, repo URL, and explanation of open innovation before the deadline.
 
 **Do not interpret the mock-based tests as proof of actual local model inference or real-world outdoor testing.**
+
+## Submission progress — 11 October 2026
+
+The developer supplied the YouTube demo link. It has been inserted into the DEV draft and linked from the repository README. This is evidence of a link having been provided, **not** independent verification that the video plays publicly, that every app feature worked live, or that a contest entry was published. The automatic API verification above has not been rerun as part of these documentation-only updates.
