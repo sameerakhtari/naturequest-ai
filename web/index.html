@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f3eb">
+  <meta name="description" content="NatureQuest helps you notice more, scroll less, and explore outdoors with local open-weight AI.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+  <title>NatureQuest — Less screen. More sky.</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a href="#top" class="brand" aria-label="NatureQuest home">
+        <span class="brand-icon" aria-hidden="true">✳</span>
+        <span>nature<span class="brand-accent">quest</span><span class="brand-dot">.</span></span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="#plan">Explore</a>
+        <a href="#observe">Observe</a>
+        <a href="#journal" class="journal-link">Field journal <span id="journal-count">0</span></a>
+      </nav>
+      <div class="status-pill" id="model-pill" role="status" aria-live="polite"><span class="status-dot"></span><span id="model-status">Checking local AI…</span></div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-marker">✦</span> THE ANTI-SCROLL FIELD GUIDE <span class="eyebrow-line"></span> 2026 EDITION</p>
+          <h1 id="hero-heading">Less screen.<br><em>More sky.</em></h1>
+          <p class="hero-description">A little AI. A lot of real world. Discover hidden wonders, go on tiny adventures, and collect moments worth remembering.</p>
+          <div class="hero-buttons">
+            <a href="#plan" class="btn btn-dark">Find my next adventure <span aria-hidden="true">↗</span></a>
+            <a href="#how" class="text-link">See how it works <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-footnote"><span class="asterisk">✳</span> Powered by open-weight Gemma, right on your machine.</div>
+        </div>
+        <div class="hero-art">
+          <img src="/hero.svg" alt="Illustration of hills, winding trails, flowers, and a warm sun among mountains." width="660" height="570">
+          <span class="art-sticker sticker-one">OUT OF OFFICE<br>INTO NATURE ↗</span>
+          <span class="art-sticker sticker-two"><span>☀</span> <b>THE GREAT<br>OUTDOORS</b></span>
+        </div>
+        <span class="hero-edge-label" aria-hidden="true">GO SOMEWHERE WONDERFUL —</span>
+      </section>
+
+      <div class="ticker" aria-label="Explore more, scroll less">
+        <div class="ticker-track">NOTICE THE LITTLE THINGS <span>✳</span> LEAVE NO TRACE <span>✳</span> COLLECT MOMENTS, NOT THINGS <span>✳</span> NOTICE THE LITTLE THINGS <span>✳</span> LEAVE NO TRACE <span>✳</span> COLLECT MOMENTS, NOT THINGS <span>✳</span></div>
+      </div>
+
+      <section class="section steps-section" id="how">
+        <div class="section-label">01 / THE IDEA</div>
+        <div class="steps-intro"><h2>Three steps to <em>getting lost.</em><br><span>(in a good way.)</span></h2><p>Think of this as a gentle nudge from your digital world into the real one. No endless feeds. No complicated setup.</p></div>
+        <div class="steps-grid">
+          <article class="step-card"><div class="step-symbol">✳</div><span class="step-number">001</span><h3>Pick your patch</h3><p>A city sidewalk, your own backyard, or that trail you've been meaning to walk.</p></article>
+          <article class="step-card"><div class="step-symbol">↗</div><span class="step-number">002</span><h3>Go wander</h3><p>Get three small prompts, put your phone away, and see what you discover.</p></article>
+          <article class="step-card"><div class="step-symbol">◎</div><span class="step-number">003</span><h3>Bring back a story</h3><p>Snap one detail, let local AI help you notice it, and save it to your field journal.</p></article>
+        </div>
+      </section>
+
+      <section class="section planner-section" id="plan">
+        <div class="planner-head">
+          <div><p class="section-label light-label">02 / YOUR NEXT ADVENTURE</p><h2>The world is <em>calling.</em></h2><p>Tell us a little about where you're going. We'll do the rest.</p></div>
+          <div class="planet-mark" aria-hidden="true">✺<span>GO<br>PLAY</span></div>
+        </div>
+        <div class="planner-body">
+          <form id="mission-form" class="planner-form">
+            <fieldset><legend>Where are we going?</legend>
+              <div class="choice-grid" id="place-choices">
+                <label class="choice"><input type="radio" name="place" value="park" checked><span>🌳 <b>The park</b></span></label>
+                <label class="choice"><input type="radio" name="place" value="backyard"><span>🌱 <b>Backyard</b></span></label>
+                <label class="choice"><input type="radio" name="place" value="city"><span>🏙️ <b>City streets</b></span></label>
+                <label class="choice"><input type="radio" name="place" value="trail"><span>🥾 <b>A trail</b></span></label>
+                <label class="choice"><input type="radio" name="place" value="coast"><span>🌊 <b>By water</b></span></label>
+              </div>
+            </fieldset>
+            <div class="two-fields">
+              <fieldset><legend>What's the vibe?</legend><label class="select-wrap"><select name="mood"><option value="curious">🔎 Feeling curious</option><option value="calm">🍃 Something peaceful</option><option value="active">⚡ Let's move</option><option value="creative">🎨 Get creative</option></select><span aria-hidden="true">⌄</span></label></fieldset>
+              <fieldset><legend>How much time?</legend><label class="select-wrap"><select name="minutes"><option value="10">10 minutes</option><option value="20" selected>20 minutes</option><option value="30">30 minutes</option><option value="45">45 minutes</option><option value="60">60 minutes</option></select><span aria-hidden="true">⌄</span></label></fieldset>
+            </div>
+            <button type="submit" class="btn btn-lime" id="mission-submit">Make my adventure <span aria-hidden="true">↗</span></button>
+            <p class="form-footnote">Open-weight AI when available. Handpicked offline missions otherwise.</p>
+          </form>
+          <div id="mission-result" class="mission-placeholder" aria-live="polite">
+            <div class="mission-placeholder-art"><span>✺</span><span>↗</span><span>✳</span></div>
+            <h3>Adventure looks good on you.</h3><p>Choose your options and let's get you outside.</p>
+            <span class="scribble-arrow" aria-hidden="true">↖</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section observe-section" id="observe">
+        <div class="observe-heading">
+          <div><p class="section-label">03 / LOOK A LITTLE CLOSER</p><h2>Curiosity looks <em>good</em><br>on you.</h2></div>
+          <p>Found a curious leaf, colorful flower, or unusual pattern? Bring a picture back. Let a local AI model help you describe what you're seeing.</p>
+        </div>
+        <div class="observe-grid">
+          <div class="upload-card">
+            <div class="upload-icon" aria-hidden="true">◎</div>
+            <h3>What caught your eye?</h3>
+            <p>One photo, one little story. Start right here.</p>
+            <label for="photo-input" class="upload-drop" id="upload-zone">
+              <input id="photo-input" name="photo" type="file" accept="image/jpeg,image/png,image/webp" capture="environment">
+              <span id="upload-visual"><span class="upload-plus">+</span><strong>Choose or take a photo</strong><small>JPG, PNG, or WebP · up to 8 MB</small></span>
+              <img id="image-preview" alt="Your selected observation" hidden>
+            </label>
+            <label class="note-label" for="photo-note">A note to your future self <span>(optional)</span></label>
+            <textarea id="photo-note" maxlength="400" rows="2" placeholder="What made you stop and look?"></textarea>
+            <div class="upload-actions">
+              <button class="btn btn-dark" id="analyze-button" type="button" disabled>Ask local AI <span aria-hidden="true">✳</span></button>
+              <button class="btn btn-outline" id="save-photo-button" type="button" disabled>Save to journal ↗</button>
+            </div>
+            <div id="analysis-result" class="analysis-result" aria-live="polite" hidden></div>
+          </div>
+          <div class="observe-side">
+            <div class="side-icon" aria-hidden="true">✿</div>
+            <p class="mini-label">A NOTE FROM NATUREQUEST</p>
+            <h3>Look with wonder.<br><em>Leave with care.</em></h3>
+            <p>The AI can describe what it sees, but it can be wrong. Don't use it to decide whether plants, mushrooms, or animals are safe to touch or eat.</p>
+            <div class="paper-note"><span>✎</span> The photos are analyzed by <strong>your own Ollama server</strong>, never a hosted inference service. Your saved journal stays in this browser.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section journal-section" id="journal">
+        <div class="journal-heading">
+          <div><p class="section-label">04 / YOUR COLLECTION OF MOMENTS</p><h2>The little <em>things</em> log.</h2><p>Not a leaderboard. Just a record of paying attention.</p></div>
+          <button class="btn btn-outline" id="export-button" type="button">Export my journal ↓</button>
+        </div>
+        <div id="journal-grid" class="journal-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="manifesto" id="about">
+        <div class="manifesto-flower" aria-hidden="true">✿</div>
+        <p class="mini-label">A DIFFERENT KIND OF TECHNOLOGY</p>
+        <h2>More <em>outside.</em><br>Less <span>online.</span></h2>
+        <p>NatureQuest runs open-weight Gemma through Ollama on a machine you control. Your photos aren't shipped to a company for inference. No accounts, tracking scripts, GPS permissions, or cloud AI bills. When the model isn't available, handpicked missions and your local journal still work.</p>
+        <span class="manifesto-footer">MADE FOR HACKTOBERFEST 2026 · TOUCH GRASS 🌿</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a href="#top" class="brand"><span class="brand-icon">✳</span><span>nature<span class="brand-accent">quest</span><span class="brand-dot">.</span></span></a>
+      <p>Built to help you close this tab. That's kind of the point.</p>
+      <div><a href="https://github.com/sameerakhtari/naturequest-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#about">Our philosophy ↗</a></div>
+    </footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>
