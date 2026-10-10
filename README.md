@@ -5,7 +5,7 @@ NatureQuest is an offline-first outdoor exploration companion built for **Hackto
 
 Plan a three-step outdoor micro-adventure, put your phone down, notice something wonderful, and return with a photograph. Google's open-weight Gemma 3 vision model runs through **your own Ollama server** and helps describe the details. A private field journal stores discoveries in your own browser.
 
-[▶ Watch the NatureQuest AI demo](https://youtu.be/JD7JUCscFDk) · [Official challenge](https://dev.to/challenges/hacktoberfest-week1-2026-10-05) · [Gemma 3 model](https://ollama.com/library/gemma3) · [Ollama](https://ollama.com/)
+[📝 Hacktoberfest Week 1 DEV submission](https://dev.to/sameerakhtari/naturequest-ai-less-screen-more-sky-a-local-gemma-powered-outdoor-companion-26dj) · [▶ Watch the NatureQuest AI demo](https://youtu.be/JD7JUCscFDk) · [Official challenge](https://dev.to/challenges/hacktoberfest-week1-2026-10-05) · [Gemma 3 model](https://ollama.com/library/gemma3) · [Ollama](https://ollama.com/)
 
 ## Features
 
@@ -82,7 +82,9 @@ The [Hacktoberfest 2026 Week 1 rules](https://dev.to/page/hacktoberfest-week1-20
 
 **Video demonstration:** https://youtu.be/JD7JUCscFDk (link supplied October 11, 2026; public playback has not been independently verified here).
 
-**DEV Community post:** [ready-to-use submission draft](SUBMISSION_DRAFT.md), now including an embedded video. Publish it through the official Week 1 challenge submission template, and verify its preview, DEV tags, and availability before the deadline. The draft is *not* the published contest entry.
+**DEV Community submission:** [NatureQuest AI — Less Screen, More Sky](https://dev.to/sameerakhtari/naturequest-ai-less-screen-more-sky-a-local-gemma-powered-outdoor-companion-26dj). The author supplied this published-post URL on October 11, 2026. Public page access and embedded-media rendering still need to be confirmed in a signed-out browser.
+
+**Draft retained for reference:** [Submission draft](SUBMISSION_DRAFT.md). The DEV post is the contest entry; the GitHub draft is not a separate entry.
 
 Refer to [DEMO_CHECKLIST.md](DEMO_CHECKLIST.md) for remaining checks, including playback in a signed-out browser. The demo itself cannot prove every feature without an independent test.
 
